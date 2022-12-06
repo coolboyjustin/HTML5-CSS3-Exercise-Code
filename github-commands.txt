@@ -1,0 +1,8 @@
+Add all local changes
+1. git add .
+
+Commit your changes
+2. git commit -m "something meaningful"
+
+Push your local changes
+3. git push
