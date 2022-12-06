@@ -1,0 +1,67 @@
+body {
+    background-color: #03A9F4;
+    color: white;
+    text-align: center;
+}
+
+img {
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+/*selector1, selector2, ....selector3*/
+p, a {
+    font-weight: bold;
+}
+
+.user-position {
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    border-bottom: 3px solid white !important;
+    transition: all 0.5s cubic-bezier(0, 0, 0.06, 0.87) 0.5s;
+}
+
+a:active {
+    background-color: rgb(167, 23, 23);
+}
+
+a:visited {
+    color: rgb(255, 255, 255)
+}
+
+a:hover {
+    background-color: gold;
+    color: rgb(181, 31, 31);
+}
+
+img:hover {
+    width: 200px;
+}
+
+a:focus {
+    background: rgb(33, 212, 63);
+}
+
+.tugma {
+    display: inline-block;
+    padding: 15px;
+    border: 5px solid #222;
+    background-color: gold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.tugma:hover {
+    background-color: #222;
+    color: gold;
+    border-color: gold;
+}
+
+.quti {
+    padding: 15px;
+    border: 5px solid #222;
+    background-color: gold;
+}
