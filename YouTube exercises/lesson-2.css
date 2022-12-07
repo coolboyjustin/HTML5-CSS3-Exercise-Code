@@ -28,6 +28,7 @@ body{
   background-color: green;
   color: white;
   border: none;
+  border-radius: 2px;
   font-size: 18px;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -48,6 +49,8 @@ body{
   margin-top: 10px;
   margin-left: 2px;
   margin-right: 2px;
+  margin-bottom: 10px;
+  border-radius: 2px;
   border: none;
   font-size: 18px;
   transition: all 0.25s;
@@ -57,4 +60,23 @@ body{
   padding-right: 25px;
   margin-left: 0px;
   margin-right: 0px;
+}
+.shadow-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.15s;
+}
+.shadow-button:hover {
+  margin-top: 3px;
+  margin-left: 3px;
+  box-shadow: none;
 }
