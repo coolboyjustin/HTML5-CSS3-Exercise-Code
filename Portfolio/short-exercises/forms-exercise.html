@@ -15,8 +15,11 @@
     <label for="email">Email</label>
     <input type="email" name="email" id="email">
     <br><br>
-    <label for="sana">Birtday</label>
-    <input type="date" name="sane" id="sana">
+    <label for="datemax">Birtday Max</label>
+    <input type="date" name="datemax" id="datemax" max="2010-12-31">
+    <br><br>
+    <label for="datemin">Birtday Min</label>
+    <input type="date" name="datemin" id="datemin" min="2010-12-31">
     <br><br>
     <label for="checkbox">Talaba</label>
     <input type="checkbox" name="checkbox" id="checkbox">
@@ -36,6 +39,26 @@
     <input type="text" name="1name" id="1name" value="Doe"><br><br>
     <input type="submit">
     <input type="reset">
+    <br><br><hr>
+    <label for="birthdaytime">Birthday (date and time):</label>
+    <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+    <hr>
+    <input type="image" src="" alt="Submit" width="48" height="48">
+    <br><br><hr>
+    <label for="2name">Secret Word</label>
+    <input type="text" name="2name" id="2name"><br><br>
+    <input type="hidden" name="custID" id="custID" value="3487">
+    <input type="submit" value="Submit">
+    <br><hr>
+  </form>
+
+  <form action="https://google.com" method="get">
+    <label for="gsearch">Search Google:</label>
+    <input type="search" id="gsearch" name="gsearch">
+  </form>
+
+  <form action="/server.php" method="get">
+    
   </form>
 </body>
 </html>
