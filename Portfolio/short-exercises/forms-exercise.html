@@ -56,9 +56,20 @@
     <label for="gsearch">Search Google:</label>
     <input type="search" id="gsearch" name="gsearch">
   </form>
-
+  <br><hr>
   <form action="/server.php" method="get">
-    
+    <label for="experience">Tajribangiz</label>
+    <select name="experience" id="experience">
+      <option value="0">No experience</option>
+      <option value="1">Less than 1 year</option>
+      <option value="2">More than 1 year</option>
+    </select>
   </form>
+  <br><hr><br>
+  <form>
+    <label for="about">Siz haqingizda</label><br>
+    <textarea name="about" id="about" cols="30" rows="10" placeholder="type here..."></textarea>
+  </form>
+  <link rel="icon" type="image/png" href="path-to-the-png">
 </body>
 </html>
