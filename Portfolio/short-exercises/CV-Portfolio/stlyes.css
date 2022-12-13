@@ -1,0 +1,26 @@
+body {
+  border: 0;
+  margin-left: 30px;
+}
+
+#portfolio-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+header {
+  text-align: center;
+}
+
+.experience-company, .education-instition {
+  color: green;
+}
+
+table {
+  width: 100%;
+}
+
+.field {
+  margin-bottom: 5px;
+}
