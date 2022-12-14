@@ -4,65 +4,218 @@
 	<meta charset="UTF-8" />
 	<title>Portfolio</title>
   <link rel="stylesheet" href="main.css">
+  <script src="https://kit.fontawesome.com/f44b35a42c.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
   <!-- Header section -->
-  <header class="main-header">
-    <nav class="main-navigation">
-      <ul class="main-navigation__items">
-        <li class="main-navigation__item">
-          <a href="#">Asosiy</a>
-        </li>
-        <li class="main-navigation__item">
-          <a href="#">Men haqimda</a>
-        </li>
-        <li class="main-navigation__item">
-          <a href="#">Xizmatlar</a>
-        </li>
-        <li class="main-navigation__item">
-          <a href="#">Mijozlar</a>
-        </li>
-        <li class="main-navigation__item">
-          <a href="#">Portfolio</a>
-        </li>
-        <li class="main-navigation__item">
-          <a href="#">Blog</a>
-        </li>
-        <li class="main-navigation__item">
-          <a href="#">Sheriklar</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+  <div class="container">
+    <header class="main-header">
+      <div class="main-header__brand">
+        <a href="index.html">
+          <img src="imgs/logo_it_company.jpg" alt="Logo">
+        </a>
+      </div>
+      <nav class="main-navigation">
+        <ul class="main-navigation__items">
+          <li class="main-navigation__item active">
+            <a href="#">Asosiy</a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="#">Men haqimda</a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="#">Xizmatlar</a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="#">Mijozlar</a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="#">Portfolio</a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="#">Blog</a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="#">Sheriklar</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
 	<!-- Header section -->
 
   <!-- Main section -->
-  <section id="main-section">
-    <h1>Asosiy qism</h1>
-  </section>
+  <div class="container">
+    <section id="main-section" class="main-section">
+      <div>
+        <h4 class="main-section__welcome to-uppercase">Salom Hammaga!</h4>
+        <h1 class="main-section__introduction to-uppercase">Mening ismim Farrux</h1>
+        <h3 class="main-section__position to-uppercase">Junior dasturchi va Gamer</h3>
+        <div class="main-section__social-networks">
+          <a href="https://t.me/justin_fk">
+            <i class="fa-brands fa-telegram"></i>
+          </a>
+          <a href="https://www.youtube.com/@farruxabduxalilov6490/featured">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="https://instagram.com/justin_xxzz">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <button type="button" class=" button main-section__action to-uppercase">
+          Mening ishlarim
+        </button>
+      </div>
+      <div class="main-section__image">
+        <img src="imgs/main-page-photo-man.png" alt="My Photo">
+      </div>
+    </section>
+    <div class="clearfix"></div>
+  </div>
   <!-- Main section -->
 
+  <!-- Statistics -->
+  <div class="container">
+    <section id="statistics" class="statistics">
+      <div class="statistics__item">
+        <h3 class="statistics_number">
+          15k+
+        </h3>
+        <p class="statistics__title">
+          Xursand Mijozlar
+        </p>
+      </div>
+      <div class="statistics__item">
+        <h3 class="statistics_number">
+          12k+
+        </h3>
+        <p class="statistics__title">
+          Yordam
+        </p>
+      </div>
+      <div class="statistics__item">
+        <h3 class="statistics_number">
+          9/10
+        </h3>
+        <p class="statistics__title">
+          O'rtacha Reyting
+        </p>
+      </div>
+    </section>
+  </div>
+
   <!-- About me section -->
-  <section id="about-me">
-    <h1>Men haqimda</h1>
-  </section>
+  <div class="container">
+    <section id="about-me" class="about-me">
+      <div class="about-me__image">
+        <img src="imgs/about-us.png" alt="about us image">
+      </div>
+      <div class="about-me__info">
+        <h5 class="section-subtitle">
+          Men haqimda
+          <span class="blur-line"></span>
+        </h5>
+        <h3 class="section-title">
+          Junior dasturchi
+        </h3>
+        <p class="about-me__description">
+          Mening ismim Farrux. Yevropada Qo'shma Magistraturani tamomlagach, o'zimni dasturlash sohasida sinab ko'rishga qaror qildim va bundan hozircha hech ham afsuslanmayman.
+        </p>
+        <button type="button" class="button to-uppercase about-me__action">
+          CV ko'chirib olish
+        </button>
+      </div>
+    </section>
+  <div class="clearfix"></div>
+  </div>
   <!-- About me section -->
 
   <!-- services section -->
-  <section id="services">
-    <h1>
-      Mening xizmatlarim
-    </h1>
-  </section>
+  <div class="container">
+    <section id="services" class="services">
+      <h5 class="section-subtitle">
+        Mening xizmatlarim
+        <span class="blur-line"></span>
+      </h5>
+      <h2 class="section-title">
+        Men taklif <br>
+        qiladigan xizmatlar
+      </h2>
+      <div class="services__cards">
+        <div class="service__card">
+          <img class="service-card__icon" src="imgs/service-logo-1.png" alt="Service 1">
+          <h5 class="service-card__title">Web dasturlash</h5>
+          <p class="service-card__description">
+            Savollaringizga to'liq javoblar va birinchi web saytingizni yaratish uchun kerak bo'ladigan barcha xizmatlar.
+          </p>
+          <a href="#" class="service-card__link">
+            Ko'proq ma'lumot
+          </a>
+        </div>
+      </div>
+      <div class="service__card">
+        <img class="service-card__icon" src="imgs/service-logo-2.png" alt="Service 1">
+        <h5 class="service-card__title">Web dasturlash</h5>
+        <p class="service-card__description">
+          Savollaringizga to'liq javoblar va birinchi web saytingizni yaratish uchun kerak bo'ladigan barcha xizmatlar.
+        </p>
+        <a href="#" class="service-card__link">
+          Ko'proq ma'lumot
+        </a>
+      </div>      
+      <div class="service__card">
+        <img class="service-card__icon" src="imgs/service-logo-3.png" alt="Service 1">
+        <h5 class="service-card__title">Web dasturlash</h5>
+        <p class="service-card__description">
+          Savollaringizga to'liq javoblar va birinchi web saytingizni yaratish uchun kerak bo'ladigan barcha xizmatlar.
+        </p>
+        <a href="#" class="service-card__link">
+          Ko'proq ma'lumot
+        </a>
+      </div>
+    </section>
+  </div>
   <!-- services section -->
 
   <!-- clients section -->
-  <section id="clients">
-    <h1>
-      Mening mijozlarim
-   </h1>
-  </section>
+  <div class="container">
+    <section id="clients" class="clients">
+      <h5 class="section-subtitle">
+        Mening mijozlarim
+        <span class="blur-line"></span>
+     </h5>
+     <h2 class="section-title">
+      Xurmatli mijozlarim <br>
+      men haqimda
+     </h2>
+     <div class="client-items">
+      <div class="client-item">
+        <img src="imgs/testimonial1.png" alt="Client testimonial">
+      </div>
+      <div class="client-item__info">
+        <h3 class="client-item__name">
+          Sherali Jo'rayev
+        </h3>
+        <p class="client-item__position">
+          Senior dasturchi
+        </p>
+        <p class="client-item__review">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dignissimos molestias aperiam nemo aspernatur tenetur similique ducimus ratione atque natus perferendis, harum repellendus. Aliquam accusantium, soluta ipsum qui facere accusamus!
+        </p>
+        <div class="client-item__rate">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star disabled"></i>
+        </div>
+      </div>
+     </div>
+    </section>
+    <div class="clearfix"></div>
+  </div>
+
   <!-- clients section -->
 
   <!-- Portfolio section -->
