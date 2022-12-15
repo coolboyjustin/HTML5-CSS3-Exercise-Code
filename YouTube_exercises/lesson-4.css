@@ -1,0 +1,109 @@
+    .grid {
+      display: grid;
+      margin-left: 10px;
+    }
+    
+    .grid-one {
+      grid-template-columns: 200px 75px;
+    }
+    
+    .column-one {
+      text-align: center;
+      background-color: #B6D6E4;
+    }
+    
+    .column-two {
+      background-color: pink;
+      text-align: center;
+    }
+    
+    .grid-two {
+      margin-top: 10px;
+      grid-template-columns: 50px 1fr 75px;
+    }
+
+    .col1 {
+      text-align: center;
+      background-color: #B6D6E4;
+    }
+
+    .col2 {
+      text-align: center;
+      background-color: pink;
+    }
+
+    .col3 {
+      text-align: center;
+      background-color: #B6D6E4;
+    }
+
+    .grid-three {
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 20px;
+      row-gap: 10px;
+      margin-top: 10px;
+    }
+
+    .grid-four {
+      margin-top: 20px;
+      margin-left: 20px ;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .profile {
+      width: 150px;
+      box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.05);
+    }
+
+    .margin-pic{
+      margin-right: 10px;
+      margin-left: 5px;
+      margin-bottom: 15px;
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 2px;
+      -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+
+    img:hover {
+      -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+
+    .grid-name {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .grid-friends {
+      margin-top: 0;
+      font-size: 15px;
+      color: #7c7f80;
+    }
+
+    button {
+      color: white;
+      background-color: #3364C5;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 15px;
+      cursor: pointer;
+      transition: all .2s ease-in-out;
+    }
+
+    button:hover {
+      box-shadow: rgba(0, 0, 0, 0.265) 3px 4px 10px;
+    }
+
+    button:active {
+      background-color: #3b70daeb;
+    }
