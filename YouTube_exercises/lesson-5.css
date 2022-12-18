@@ -1,0 +1,40 @@
+.box {
+  /* width: 700px; */
+  color: rgb(10, 6, 213);
+  height: 500px;
+  border: 4px solid red;
+  background-image: url("gen-imgs/oliver-cat.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+  background-position: 10px 10px;
+}
+
+.rounded-img {
+  width: 320px;
+  border-radius: 24px;
+  margin-right: 20px;
+}
+
+.circle-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.thumbnail-img {
+  width: 200px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.opacity-img {
+  width: 300px;
+  border-radius: 5px;
+  opacity: 0.5;
+}
+
+.opacity-img:hover {
+  opacity: 1;
+}
