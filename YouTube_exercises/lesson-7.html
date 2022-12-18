@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Forms CSS</title>
+  <link rel="stylesheet" href="lesson-7.css">
+</head>
+<body>
+	<div class="container">
+    <form action="/server.php" method="GET">
+      <label for="firstname">Ism</label>
+      <br>
+      <input type="text" name="firstname" id="firstname" placeholder="Ismingiz" required>
+      <br>
+      <label for="lastname">Familiya</label>
+      <br>
+      <input type="text" id="lastname" name="lastname" placeholder="Familiyangiz" required>
+      <br>
+      <label for="country">Davlat</label>
+      <br>
+      <select id="country" name="country" placeholder="select">
+        <option value="select">Tanlash</option>
+        <option value="uzbekistan">O'zbekiston</option>
+        <option value="russia">Rossiya</option>
+        <option value="usa">AQSH</option>
+      </select>
+      <br>
+      <label for="message">Xabar</label>
+      <br>
+      <textarea name="message" id="message" placeholder="Xabaringiz" cols="30" rows="10" required></textarea>
+      <br>
+      <button type="submit" class="button">Jo'natish</button>
+    </form>
+  </div>
+</body>
+</html>
