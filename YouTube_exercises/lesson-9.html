@@ -2,37 +2,72 @@
 <html>
 <head>
 	<meta charset="UTF-8" />
-	<title>Em & Rem</title>
-  <style>
-    p {
-      font-size: 100%;
-    }
-
-    span {
-      font-size: 0.5em;
-    }
-
-    .em-text {
-      font-size: 1rem;
-    }
-  </style>
+	<title>Facebook prototype</title>
+  <link rel="stylesheet" href="lesson-9.css">
 </head>
   <body>
-    <h1>
-      Em practice
-    </h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nostrum repudiandae quo architecto laboriosam ipsum, reiciendis qui eos accusantium ab esse aut, laborum molestias iusto natus! 
-        <span>
-          Vero ipsa necessitatibus non?
-        </span>
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nisi quo facilis velit, omnis fugiat, ratione ad quam, nostrum nam voluptatum. Harum nemo illum vel consequuntur corrupti maiores minus temporibus!
-        <p class="em-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, est similique quasi vitae animi repellat aliquid possimus ab dolores dolor, assumenda hic tempore! A aliquam illo voluptas, odio tempora consequuntur.	
-        </p>
-      </p>
-      
+    <div class="row">
+      <img class="profile-picture" src="gen-imgs/oliver-cat.jpg">
+      <div class="info">
+        <p class="title">oliver</p>
+        <p class="subtitle">the cat</p>
+        <p class="text">Popular</p>
+      </div>
+      <button class="follow-button">Follow</button>
+    </div>
+    <div class="row">
+      <img class="profile-picture" src="gen-imgs/mimi-cat.jpg">
+      <div class="info">
+        <p class="title">Mimi cat</p>
+        <p class="subtitle">the cat</p>
+        <p class="text">Popular</p>
+      </div>
+      <button class="follow-button">Follow</button>
+    </div>
+    <div class="row">
+      <img class="profile-picture" src="gen-imgs/dog-rex.jpg">
+      <div class="info">
+        <p class="title">Rex</p>
+        <p class="subtitle">the dog</p>
+        <p class="text">Popular</p>
+      </div>
+      <button class="follow-button">Follow</button>
+    </div>
+    <hr>
+      <div class="flexbox-div">
+      <div class="item-one">200px</div>
+      <div class="item-two">75px</div>
+    </div>    
+    <div class="flexbox-div">
+      <div class="item-three">200px</div>
+      <div class="item-four">75px</div>
+      <div class="item-five">75px</div>
+    </div>
+    <div class="flexbox-div__one">
+      <div class="item1">75px</div>
+      <div class="item1">75px</div>
+      <div class="item1">75px</div>
+      <div class="item1">75px</div>
+    </div>
+    <div class="flexbox-div__two">
+      <div class="item2">75px</div>
+      <div class="item2">75px</div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="flexbox">
+        <div>Home</div>
+        <div class="notifications">14</div>
+      </div>
+      <div class="flexbox">
+        <div>Notifications</div>
+        <div class="notifications">3</div>
+      </div>
+      <div class="flexbox">
+        <div>Messages</div>
+        <div class="notifications">5</div>
+      </div>
+    </div>
+    <hr>
   </body>
 </html>
