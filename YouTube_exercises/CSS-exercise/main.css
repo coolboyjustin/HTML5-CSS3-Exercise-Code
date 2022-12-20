@@ -7,7 +7,7 @@
 }
 
 .main-section {
-  padding: 100px 30px;
+  padding: 7.5rem 1.87rem;
 }
 
 .main-section > div {
@@ -20,33 +20,33 @@
 }
 
 .main-section__welcome {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   letter-spacing: 2px;
   color: #797979;
 }
 
 .main-section__introduction {
-  margin-top: 20px;
-  font-size: 60px;
+  margin-top: 1.25rem;
+  font-size: 3.75rem;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   color: #05364E;
 }
 
 .main-section__position {
   color: #05364E;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .main-section__social-networks a {
   color: #8fa1aa;
-  font-size: 20px;
+  font-size: 1.25rem;
   display: inline-block;
-  margin-right: 16px;
+  margin-right: 1rem;
   cursor: pointer;
 }
 
@@ -54,12 +54,12 @@
   color: #1c44e4;
 }
 .main-section__action {
-  margin-top: 30px;
+  margin-top: 1.87rem;
 }
 
 /* Statistics */
 .statistics {
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 .statistics__item {
@@ -67,20 +67,20 @@
   width: 150px;
   background-color: #F8FAFF;
   text-align: center;
-  margin-right: 20px;
-  padding: 5px 10px;
+  margin-right: 1.25rem;
+  padding: 0.32rem 0.625rem;
 }
 
 .statistics_number {
-  font-size: 27px;
-  margin-bottom: 5px;
+  font-size: 1.69rem;
+  margin-bottom: 0.32rem;
   background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .statistics__title {
-  font-size: 16px;
+  font-size: 1rem;
   color: #797979;
   font-weight: 300;
 }
@@ -88,7 +88,7 @@
 /* About me */
 .about-me {
   position: relative;
-  padding: 100px 0;
+  padding: 6.25rem 0;
   /* z-index: -1; */
 }
 
@@ -110,25 +110,25 @@
 
 .about-me__description {
   width: 400px;
-  font-size: 14px;
+  font-size: 0.87rem;
   font-weight: 300;
   color: #797979;
-  line-height: 27px;
+  line-height: 1.69rem;
   word-wrap: break-word;
 }
 
 .about-me__action {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 /* Services section styles */
 .services {
   display: inline-block;
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 .service__card {
-  padding: 60px 30px;
+  padding: 3.75rem 1.87rem;
   float: left;
   width: 30%;
   background-color: #F8FAFF;
@@ -139,21 +139,21 @@
 
 .service-card__title {
   color: #05364d;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   text-transform: uppercase;
 }
 
 .service-card__description {
-  font-size: 14px;
-  line-height: 27px;
+  font-size: 0.87rem;
+  line-height: 1.68rem;
   font-weight: 300;
   color: #797979;
 }
 
 .service-card__link {
-  font-size: 13px;
+  font-size: 0.81rem;
   font-weight: 500;
   text-transform: uppercase;
   color: #05364d;
@@ -172,7 +172,7 @@
 
 /* clients section */
 .clients {
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 .client-items > div {
@@ -189,24 +189,24 @@
 }
 
 .client-item__info {
-  padding-top: 50px;
-  padding-left: 50px;
+  padding-top: 3.12rem;
+  padding-left: 3.12rem;
 }
 
 .client-item__name {
-  font-size: 20px;
-  margin-bottom: 4px;
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .client-item__position {
-  font-size: 14px;
+  font-size: 0.87rem;
   font-weight: 300;
   color: #5b6d75;
 }
 
 .client-item__review {
-  font-size: 14px;
-  line-height: 27px;
+  font-size: 0.87rem;
+  line-height: 1.68rem;
   font-weight: 300;
   color: #5b6d75;
 }
@@ -221,19 +221,19 @@
 
 /* Portfolio section */
 .portfolio {
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 .portfolio-filters {
 list-style: none;
 padding-left: 0;
-margin-top: 50px;
+margin-top: 3.12rem;
 }
 
 .portfolio-filters li {
   display: inline-block;
   margin-right: 40px;
-  font-size: 13px;
+  font-size: 0.81rem;
   font-weight: 400;
   text-transform: uppercase;
   cursor: pointer;
@@ -246,7 +246,7 @@ margin-top: 50px;
 
 .portfolio-items {
   position: relative;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .portfolio-item-2 {
@@ -309,7 +309,7 @@ margin-top: 50px;
 /* Blog section */
 
 .blog-items {
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .blog-item {
@@ -333,40 +333,40 @@ margin-top: 50px;
 
 .blog-item__info {
   background-color: #F8FAFF;
-  padding: 30px;
+  padding: 1.87rem;
   color: #797979;
 }
 
 .blog-item__main-info {
-  font-size: 14px;
-  margin-right: 30px;
+  font-size: 0.87rem;
+  margin-right: 1.87rem;
   font-weight: lighter;
 }
 
 .blog-item__author {
-  margin-right: 30px;
+  margin-right: 1.87rem;
 }
 
 .blog-item__info i {
-  margin-right: 5px;
+  margin-right: 0.31rem;
 }
 
 .blog-item__title {
-  font-size: 20px;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.94rem;
   color: #05364d;
   font-weight: 700;
 }
 
 .blog-item__description {
-  line-height: 27px;
+  line-height: 1.69rem;
   font-weight: lighter;
-  font-size: 15px;
+  font-size: 0.94rem;
 }
 
 .blog-item__learn-more {
-  font-size: 13px;
+  font-size: 0.81rem;
   font-weight: 600;
   text-transform: uppercase;
   color: #05354d;
@@ -381,5 +381,5 @@ margin-top: 50px;
 
 .partner {
   display: inline-block;
-  padding: 100px 25px;
+  padding: 6.25rem 1.69rem;
 }

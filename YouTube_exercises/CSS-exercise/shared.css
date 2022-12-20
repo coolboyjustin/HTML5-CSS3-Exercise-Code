@@ -21,14 +21,14 @@ body {
 .section-subtitle {
   letter-spacing: 2px;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   color: #797979;
   text-transform: uppercase;
 }
 
 .section-title {
-  margin-top: 5px;
-  font-size: 42px;
+  margin-top: 0.32rem;
+  font-size: 2.62rem;
   font-weight: 700;
   text-transform: capitalize;
   color: #05364d;
@@ -40,8 +40,8 @@ body {
   background-size: 200% auto;
   color: #FFFFFF;
   font-weight: 500;
-  font-size: 14px;
-  padding: 20px 40px;
+  font-size: 0.87rem;
+  padding: 1.26rem 2.5rem;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -54,7 +54,7 @@ background-position: right center;
   display: inline-block;
   position: relative;
   top: -2px;
-  margin-left: 5px;
+  margin-left: 0.32rem;
   width: 80px;
   height: 4px;
   background-color: rgba(237,35,159,0.6);
@@ -89,14 +89,14 @@ background-position: right center;
 
 .main-navigation__item {
   display: inline-block;
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 .main-navigation__item a {
   color: #05364d;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
 }
 
