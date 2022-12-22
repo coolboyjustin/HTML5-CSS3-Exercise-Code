@@ -3,13 +3,106 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>title</title>
+  <link rel="icon" href="gen-imgs/google-icon.png">
+  <style>
+    body {
+      background-image: url('gen-imgs/oliver-cat.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    ul {
+      position: fixed;
+      width: 100%;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111111;
+    }
+    
+    table {
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #DDD;
+    }
+
+    tr:hover {background-color: #D6EEEE;}
+  </style>
 </head>
 <body>
+  <!DOCTYPE html>
+<html>
+<head>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <h2>Hoverable Table</h2>
+    <p>Move the mouse over the table rows to see the effect.</p>
+    
+    <table>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Points</th>
+      </tr>
+      <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>Lois</td>
+        <td>Griffin</td>
+        <td>$150</td>
+      </tr>
+      <tr>
+        <td>Joe</td>
+        <td>Swanson</td>
+        <td>$300</td>
+      </tr>
+      <tr>
+        <td>Cleveland</td>
+        <td>Brown</td>
+        <td>$250</td>
+      </tr>
+    </table>
   <a href="#ch4">Jump to Chapter 4</a>
   <br>
   <a href="#lorem">Jump to Lorem</a>
   <h1 id="ch4">Chapter 4</h1>
   <p>blabla bla</p>
   <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sit, reprehenderit unde quisquam dolores exercitationem cupiditate illum vitae? Quo veritatis suscipit eum eveniet reprehenderit totam veniam delectus ratione repellat repudiandae!</p>
+  <hr>
+  <h3>Try clicking on MIMI's sunglasses</h3>
+  <img src="gen-imgs/mimi-cat.jpg" alt="Mimi Cat" usemap="#mimi" width="250px">
+  <map name="mimi">
+    <area shape="rect" coords="34, 44, 270, 350" href="https://www.amazon.com/sunglasses-cats/s?k=sunglasses+for+cats" target="_blank" alt="Sunglasses">
+  </map>
 </body>
 </html>
