@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Flexbox</title>
+  <style>
+    .container {
+      display: flex;
+      align-items: center;
+    }
+
+    .one {
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: pink;
+      width: 100px;
+      height: 60px;
+    }
+
+    .two {
+      background-color: lightblue;
+      color: lightblue;
+      width: 200px;
+      height: 60px;
+    }
+  
+  .flexbox {
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+    }
+
+    .column1 {
+      background-color: lightpink;
+      width: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .item1 {
+      background-color: black;
+      color: white;
+    }
+    
+    .column2 {
+      background-color: lightblue;
+      width: 200px;
+    }
+    .flexbox-one {
+      display: flex;
+    }
+    .flexbox-row {
+      display: flex;
+      justify-content: space-between;
+    }
+    .one1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: pink;
+      width: 100px;
+      height: 60px;
+    }
+  
+    .two2 {
+      background-color: lightblue;
+      height: 60px;
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+    <div class="flexbox-one">
+      <div class="one1">item1</div>
+      <div class="flexbox-row">
+        <div class="two2">item2</div>
+        <div class="two2">item2</div>
+      </div>
+    </div>
+    <br>
+    <div class="flexbox">
+      <div class="column1">
+        <div class="item1">item1</div>
+      </div>
+      <div class="column2"></div>
+    </div>
+    <br>
+    <div class="container">
+      <div class="one">item1</div>
+      <div class="two">item2</div>
+    </div>
+    <br>
+  
+</body>
+</html>
