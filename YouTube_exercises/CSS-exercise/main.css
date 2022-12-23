@@ -383,3 +383,23 @@ margin-top: 3.12rem;
   display: inline-block;
   padding: 6.25rem 1.69rem;
 }
+
+@media only screen and (max-width: 767px) {
+  .main-banner{
+    background: none;
+    min-height: auto;
+  }
+  .main-section__image {
+    display: none;
+  }
+  .main-section__action {
+    display: none;
+  }
+  .main-section > div {
+    width: 100%;
+  }
+
+  .statistics__item {
+    width: 100%;
+  }
+}
