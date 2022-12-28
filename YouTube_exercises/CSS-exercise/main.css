@@ -135,6 +135,7 @@
   margin-right: 3%;
   text-align: center;
   box-sizing: border-box;
+  transition: all 0.4s ease 0s;
 }
 
 .service-card__title {
@@ -225,9 +226,9 @@
 }
 
 .portfolio-filters {
-list-style: none;
-padding-left: 0;
-margin-top: 3.12rem;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 3.12rem;
 }
 
 .portfolio-filters li {
@@ -275,9 +276,8 @@ margin-top: 3.12rem;
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(19, 69, 230, 0.9);
-  visibility: hidden;
   z-index: 1;
+  transition: all 0.4s ease 0s;
 }
 
 .portfolio-item__info {
@@ -286,7 +286,9 @@ margin-top: 3.12rem;
   left: 80px;
   color: white;
   visibility: hidden;
+  opacity: 0;
   z-index: 1;
+  transition: all 0.4s ease 0s;
 }
 
 .portfolio-item__info a {
@@ -298,12 +300,14 @@ margin-top: 3.12rem;
   visibility: visible;
   top: 20px;
   left: 20px;
+  background-color: rgba(19, 69, 230, 0.9);
 }
 
 .portfolio-item:hover .portfolio-item__info {
   visibility: visible;
   bottom: 24px;
   left: 60px;
+  opacity: 1;
 }
 
 /* Blog section */
@@ -314,9 +318,14 @@ margin-top: 3.12rem;
 
 .blog-item {
   float: left;
+  overflow: hidden;
   width: 30%;
   margin-right: 3%;
   box-sizing: border-box;
+}
+
+.blog-item:hover .blog-item__image img {
+  transform: scale(1.1);
 }
 
 .blog-item:hover {
@@ -327,8 +336,14 @@ margin-top: 3.12rem;
   background-color: white;
 }
 
+.blog-item__image {
+  overflow: hidden;
+}
+
 .blog-item__image img {
   width: 100%;
+  vertical-align: middle;
+  transition: all 0.4s ease 0s;
 }
 
 .blog-item__info {
