@@ -5,21 +5,28 @@
 	<title>title</title>
   <link rel="icon" href="gen-imgs/google-icon.png">
   <style>
+
     body {
+      height: 2000px;
+    }
+    /* body {
       background-image: url('gen-imgs/oliver-cat.jpg');
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
-    }
+    } */
 
     ul {
       position: fixed;
+      top: 0;
+      right: 0;
       width: 100%;
       list-style-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
       background-color: #333333;
+      z-index: 10;
     }
     
     li {
@@ -50,12 +57,53 @@
     }
 
     tr:hover {background-color: #D6EEEE;}
+
+    @keyframes two-animation {
+          0%   {background-color:red; left:0px; top:0px;}
+          25%  {background-color:yellow; left:400px; top:0px;}
+          50%  {background-color:blue; left:400px; top:400px;}
+          75%  {background-color:green; left:0px; top:400px;}
+          100% {background-color:red; left:0px; top:0px;}
+    }
+      
+    .two-d {
+      background-color: lightblue;
+      width: 200px;  
+      height: 200px;
+      position: relative;  
+      animation-name: two-animation;
+      animation-duration: 4s; 
+      animation-iteration-count: infinite; 
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: both;
+     }  
+
+     @keyframes chasing-anime {
+      0% {background-color: pink; left: 0px; top: 0px;}
+      25% {background-color: red; left: 400px; top: 0px;}
+      50% {background-color: purple; left: 400px; top: 200px;}
+      75% {background-color: black; left: 0px; top: 200px;}
+      100% {background-color: pink; left: 0px; top: 0px;}
+     }
+
+     .chasing-anime {
+      background-color: lightpink;
+      position: relative;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      animation-name: chasing-anime;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+     }
+
   </style>
 </head>
 <body>
-  <!DOCTYPE html>
-<html>
-<head>
+  <div>
     <ul>
       <li><a href="#home">Home</a></li>
       <li><a href="#news">News</a></li>
@@ -102,7 +150,15 @@
   <h3>Try clicking on MIMI's sunglasses</h3>
   <img src="gen-imgs/mimi-cat.jpg" alt="Mimi Cat" usemap="#mimi" width="250px">
   <map name="mimi">
-    <area shape="rect" coords="34, 44, 270, 350" href="https://www.amazon.com/sunglasses-cats/s?k=sunglasses+for+cats" target="_blank" alt="Sunglasses">
+    <area title="sunglasses" shape="rect" coords="34, 44, 270, 350" href="https://www.amazon.com/sunglasses-cats/s?k=sunglasses+for+cats" target="_blank" alt="Sunglasses">
   </map>
-</body>
+  </div>
+  <br>
+  <div class="two-d">
+    2D transform
+  </div>
+  <div class="chasing-anime">
+    Chasing you
+  </div>
+  </body>
 </html>
