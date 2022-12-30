@@ -19,16 +19,28 @@ textarea:focus, input:focus {
   outline: 0;
 }
 
-.half-row {
+/* .half-row {
   position: relative;
   float: left;
   width: 47%;
   box-sizing: border-box;
+} */
+
+.half-flex {
+  display: flex;
+}
+
+.contact__firstname {
+  padding-right: 0.94rem;
+  flex: 1;
 }
 
 .contact__email {
-  position: relative;
-  left: 66px;
+  /* position: relative;
+  left: 66px; */
+  margin-left: 1rem;
+  padding-left: 0.94rem;
+  flex: 1;
 }
 
 .contact__send {
